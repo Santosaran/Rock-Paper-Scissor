@@ -33,7 +33,7 @@ optionImages.forEach((image, index) => {
       let cpuValue = ["R", "P", "S"][randomNumber];
       // Assign a letter value to the clicked option (based on index)
       let userValue = ["R", "P", "S"][index];
-      // Create an object with all possible outcomes
+      // Create an object with all possible outcomes 
       let outcomes = {
         RR: "Draw",
         RP: "Cpu",
